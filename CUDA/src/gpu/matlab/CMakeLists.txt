@@ -39,6 +39,7 @@ macro( matlab_config )
     SET(MATLAB_ENG_LIBRARY ${Matlab_ENG_LIBRARY})
   elseif(UNIX)
     #SET (MATLAB_ROOT_DIR "/usr/local/MATLAB/R2010b")
+    SET(MATLAB_ROOT_DIR "/otazolab_ess/shared/pllimphmri02/matlab/r2018b")
     SET( MATLAB_INCLUDE_DIR "${MATLAB_ROOT_DIR}/extern/include" CACHE STRING "" FORCE )
 
     SET(LIBMEX "libmex.so")
